@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs: # a basic unit of work in a run
-  display_system_info
+  display_system_info:
     macos:
       xcode: 14.3.1 # indicate our selected version of Xcode
     steps: # a series of commands to run
